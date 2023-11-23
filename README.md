@@ -34,7 +34,7 @@ Master HTML in 13 days with this comprehensive tutorial series. Each day focuses
 
 ## Author
 
-[Sohail Ahmed](https://github.com/sohail019)
+[Sohail Shaikh](https://github.com/sohail019)
 
 ## License
 
@@ -42,4 +42,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-Special thanks to anyone contributing to and supporting this project.
+Special thanks to [Hrutuja Brahmankar](https://github.com/brahmankarhrutuja) contributing to and supporting this project.
