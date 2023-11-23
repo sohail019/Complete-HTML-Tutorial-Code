@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Eo_circle_blue_number-7.svg/2048px-Eo_circle_blue_number-7.svg.png"
+      type="image/x-icon"
+    />
+    <title>Day 7.1 Web Learning</title>
+  </head>
+  <body>
+    <h1>Registration Page</h1>
+    <form action="./Day 1.html" method="post">
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        placeholder="Sohail"
+        name="fname"
+        id="fname"
+        size="6"
+        maxlength="6"
+      /><br /><br />
+      <label for="lname">Last Name</label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="shaikh"
+      /><br /><br />
+
+      <label for="">ATM PIN</label>
+      <input type="text" size="4" maxlength="5" autofocus />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" multiple /><br /><br />
+      <label for="pass">Password</label>
+      <input type="password" size="6" maxlength="8" name="pass" id="pass" />
+      <br /><br />
+      <label for="clr">Color</label>
+      <input type="color" /><br /><br />
+
+      <label for="rng">Range</label>
+      <input type="range" name="rng" id="rng" /><br /><br />
+      <label for="nmbr"
+        >Entry for Adult in Between (18 years to 40 years only)</label
+      >
+      <input
+        type="number"
+        name="nmbr"
+        id="nmbr"
+        min="18"
+        max="40"
+      /><br /><br />
+
+      <label for="tripDate">Make My Trip::(dd-mm-yyyy)</label>
+      <input type="date" name="tripDate" id="tripDate" max="2024-03-17" />
+      <br /><br />
+
+      <label for="birthdayTime">Birthday Time</label>
+      <input
+        type="datetime-local"
+        name="birthdayTime"
+        id="birthdayTime"
+      /><br /><br />
+
+      <label for="week">Week</label>
+      <input type="week" name="week" id="week" /><br /><br />
+
+      <label for="month">Month</label>
+      <input type="month" name="month" id="month" /><br /><br />
+
+      <input type="time" name="time" id="time" /> <br /><br />
+
+      <label for="myFile">Select a File:</label>
+      <input type="file" name="myFile" id="myFile" /> <br /><br />
+
+      <input
+        type="search"
+        name="search"
+        id="search"
+        placeholder="Search Google"
+        style="width: 100%; border: 2px solid green; border-radius: 25px"
+      />
+      <br /><br />
+
+      <input
+        type="url"
+        name=""
+        id=""
+        placeholder="Type a URL"
+        style="width: 100%; border: 2px solid green; border-radius: 25px"
+      /><br /><br />
+
+      <input type="button" value="Click Me" onclick="alert('Clicked')" />
+      <!-- <input type="submit" value="Submit" /> -->
+      <input
+        type="image"
+        src="https://png.pngtree.com/png-vector/20230330/ourmid/pngtree-click-the-red-submit-button-icon-vector-png-image_6674606.png"
+        width="100px"
+        height="100px"
+      />
+      <br /><br />
+
+      <input type="reset" value="Reset" />
+    </form>
+    <br />
+    <button onclick="alert('Sohail')">First Name</button>
+
+    <button
+      type="button"
+      onclick="document.getElementById('sohail').innerHTML = Date()"
+    >
+      Click me to display date and time
+    </button>
+    <h1 id="sohail"></h1>
+
+    <script></script>
+  </body>
+</html>

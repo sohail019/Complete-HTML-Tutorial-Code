@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 5 Web Learning</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Eo_circle_blue_number-5.svg/2048px-Eo_circle_blue_number-5.svg.png"
+    />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      tr:nth-child(even) {
+        background-color: #116466;
+        color: white;
+      }
+      tr:nth-child(odd) {
+        background-color: #d6eeee;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Day 5</h1>
+    <!-- Block and Inline -->
+    <h2>Div Elements</h2>
+    <div style="background-color: blue; color: white; padding: 2px">
+      <h3>Sohail</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+        laudantium a! Nisi temporibus delectus sed quae accusamus, aspernatur
+        quaerat possimus!
+      </p>
+    </div>
+    <div
+      style="
+        background-color: red;
+        color: white;
+        padding: 2px;
+        margin-top: 10px;
+      "
+    >
+      <h4>Sohail</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse suscipit
+        pariatur eaque natus cupiditate blanditiis voluptatem, nulla repellendus
+        ducimus sit?
+      </p>
+    </div>
+
+    <h2>Span Elements</h2>
+    <p style="background-color: black; color: white; padding: 10px">
+      Lorem ipsum dolor sit amet consectetur,
+      <span style="background-color: green; color: black"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        vitae.</span
+      >
+      adipisicing elit. Corporis, officiis soluta. Eius veritatis earum esse
+      harum quis nostrum eaque sed.
+    </p>
+
+    <h2>Tables</h2>
+    <table style="width: 100%; text-align: center; border-spacing: 30px">
+      <caption>
+        Horizontal Table
+      </caption>
+      <tr>
+        <th style="width: 70%">Name</th>
+        <th>Father's Name</th>
+        <th>Surname</th>
+      </tr>
+      <tr style="height: 80px">
+        <td>Sohail</td>
+        <td>Anwar</td>
+        <td>Shaikh</td>
+      </tr>
+      <tr>
+        <td>Madiha</td>
+        <td>Anwar</td>
+        <td>Shaikh</td>
+      </tr>
+      <tr>
+        <td>Jamil</td>
+        <td>Ahsan</td>
+        <td>Ansari</td>
+      </tr>
+    </table>
+
+    <h3>Vertical Table Header</h3>
+    <table style="width: 100%; text-align: center">
+      <tr>
+        <th style="width: 30%">Name</th>
+        <td>Sohail</td>
+        <td>John</td>
+      </tr>
+      <tr>
+        <th>Father's Name</th>
+        <td>Anwar</td>
+        <td>Cena</td>
+      </tr>
+      <tr>
+        <th>Surname Name</th>
+        <td>Shaikh</td>
+        <td>ASJKGAJSA</td>
+      </tr>
+    </table>
+
+    <!-- HTML JAVASCRIPt -->
+    <button
+      type="button"
+      onclick="alert(document.getElementById('date').innerHTML = Date())"
+      style="margin-top: 10px"
+    >
+      Click me to Pop up Date and Time.
+    </button>
+    <p id="date"></p>
+    <script></script>
+  </body>
+</html>

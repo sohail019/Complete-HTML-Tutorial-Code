@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 10 Web Learning</title>
+    <style>
+      main {
+        padding: 10px;
+        margin: 10px;
+      }
+
+      aside {
+        width: 150px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <h2>Sidebar</h2>
+      <p>This is some content in the sidebar.</p>
+    </aside>
+
+    <main>
+      <h1>Main Content</h1>
+      <p>This is the main content of the page.</p>
+
+      <section>
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At, debitis!
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga
+          deserunt distinctio minus inventore laborum asperiores porro.
+          Voluptatibus temporibus incidunt dignissimos atque obcaecati ad
+          ducimus facilis, ipsa itaque exercitationem necessitatibus perferendis
+          ullam soluta quisquam quaerat pariatur, recusandae quas velit nobis?
+          Nulla ipsum sapiente officia fuga pariatur minima quis eius adipisci!
+        </p>
+      </section>
+
+      <article>
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At, debitis!
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga
+          deserunt distinctio minus inventore laborum asperiores porro.
+          Voluptatibus temporibus incidunt dignissimos atque obcaecati ad
+          ducimus facilis, ipsa itaque exercitationem necessitatibus perferendis
+          ullam soluta quisquam quaerat pariatur, recusandae quas velit nobis?
+          Nulla ipsum sapiente officia fuga pariatur minima quis eius adipisci!
+        </p>
+      </article>
+
+      <div>
+        <canvas id="line" style="background-color: #fff"></canvas>
+      </div>
+
+      <div style="border: 2px dashed black">
+        <h4>Image without Caption</h4>
+
+        <img src="./sohail.jpg" alt="Sohail" width="150" height="150" />
+      </div>
+      <hr />
+      <figure style="border: 2px dashed black; margin: auto; padding: 4px">
+        <img src="./sohail.jpg" alt="Sohail" width="150" height="150" />
+        <figcaption
+          style="background-color: #116466; color: white; text-align: center"
+        >
+          Image with Caption
+        </figcaption>
+      </figure>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Expenses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jan</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <td>Feb</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <td>Mar</td>
+            <td>400</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Sum</td>
+            <td>900</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer>
+      <p>&copy All Rights Reserved</p>
+    </footer>
+
+    <script>
+      //   let li = document.getElementById("line");
+      //   let ctx = li.getContext("2d");
+      //   ctx.fillStyle = "#116466";
+      //   ctx.fillRect(0, 0, 160, 60);
+    </script>
+    <noscript>Your Browser Doesn't Support Javascript</noscript>
+  </body>
+</html>

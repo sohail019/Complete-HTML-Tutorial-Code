@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Eo_circle_blue_number-7.svg/2048px-Eo_circle_blue_number-7.svg.png"
+      type="image/x-icon"
+    />
+    <title>Day 7 Web Learning</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Day 7 Web Learning</h1>
+
+    <!-- Form -->
+    <h3>Form</h3>
+
+    <form action="./Day 1.html" method="post" autocomplete="on">
+      <label for="fname">First Name:</label>
+      <input type="text" placeholder="John" name="fname" id="fname" />
+      <label for="">Last Name:</label>
+      <input type="text" placeholder="Cena" />
+      <input type="radio" /> Male <input type="radio" /> Female <br /><br />
+      <select name="cars" id="cars">
+        <option value="tata">Tata</option>
+        <option value="scorpio" selected>Scorpio</option>
+        <option value="thar">Thar</option></select
+      ><br /><br />
+      <textarea name="textbox" id="textbox" cols="30" rows="10"></textarea
+      ><br />
+      <button type="button" onclick="alert('Hello')">Click Me</button>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- 2nd Form Input All Types -->
+    <h3>Form Input All Types</h3>
+    <div class="formHaiBhai">
+      <form action="./Day 1.html" method="post">
+        <fieldset>
+          <legend>Personal info</legend>
+          <!-- Input Type - Text -->
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" id="fname" />
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" />
+          <br /><br />
+
+          <!-- Input Type - Email -->
+          <label for="email">Enter Email</label>
+          <input type="email" name="email" id="email" />
+          <!-- INput Type - Password -->
+          <label for="pwd">Password: </label>
+          <input type="password" name="pwd" id="pwd" />
+          <br /><br />
+        </fieldset>
+        <!-- Input Type - Number -->
+        <label for="quantity">Quantity Between 1 to 10</label>
+        <input
+          type="number"
+          name="quantity"
+          id="quantity"
+          min="1"
+          max="10"
+        /><br /><br />
+
+        <!-- Input Type - Telephone -->
+        <label for="phone">Enter Mobile Number:</label>
+        <input type="tel" name="phone" id="phone" />
+
+        <!-- Input type - Radio -->
+        <input type="radio" name="male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="other" id="other" />
+        <label for="other">Other</label>
+        <br /><br />
+
+        <!-- Input Type - Checkbox -->
+        <input
+          type="checkbox"
+          name="banana"
+          id="banana"
+          value="banana"
+          checked
+        />
+        <label for="banana">Banana</label>
+        <input type="checkbox" name="apple" id="apple" value="apple" />
+        <label for="apple">Apple</label>
+        <br /><br />
+
+        <!-- Input Type - Range -->
+        <label for="range">Range Between 10 to 50:</label>
+        <input type="range" name="range" id="range" min="10" max="50" />
+
+        <!-- Input Type - Color -->
+        <label for="clr">Choose the color</label>
+        <input type="color" name="color" id="clr" />
+        <br /><br />
+
+        <fieldset disabled>
+          <legend>Time & Date</legend>
+          <!-- Input Type - Date -->
+          <label for="birthday">Birthday: </label>
+          <input type="date" name="birthday" id="birthday" /><br /><br />
+
+          <!-- INput Type - Time -->
+          <label for="time">Select a time: </label>
+          <input type="time" name="time" id="time" /><br /><br />
+          <!-- Input Type - Date-time Local -->
+          <label for="birthdaytime">Birthday ( Date & Time) :</label>
+          <input type="datetime-local" name="birthdaytime" id="birthdaytime" />
+          <br /><br />
+
+          <!-- Input Type - Week -->
+          <label for="week">Select a Week</label>
+          <input type="week" name="week" id="week" />
+          <!-- Input Type - Month -->
+          <label for="birthdaymonth">Birthday (month & Year)</label>
+          <input
+            type="month"
+            name="birthdaymonth"
+            id="birthdaymonth"
+          /><br /><br />
+        </fieldset>
+        <!-- Input Type - FIle -->
+        <label for="file">Select a File</label>
+        <input type="file" name="file" id="file" /><br /><br />
+
+        <fieldset>
+          <legend>URL & Search</legend>
+          <!-- INput Type - Search -->
+          <label for="gsearch">Search Box</label>
+          <input type="search" name="gsearch" id="gsearch" /><br /><br />
+
+          <!-- Input Type - URL -->
+          <label for="homepage">Add your Homepage: (URL)</label>
+          <input type="url" name="homepage" id="homepage" /><br /><br />
+        </fieldset>
+        <!-- Input Type - Image defines an Image as submit button -->
+        <input
+          type="image"
+          src="./favicon.png"
+          alt="Favicon"
+          width="80px"
+          height="30px"
+        />
+
+        <!-- Input Type - Button -->
+        <input type="button" value="Click Me" onclick="alert('Clicked')" />
+        <!-- Input Submit -->
+        <input type="submit" value="Submit" />
+        <!-- Input Type - Reset -->
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>
