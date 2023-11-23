@@ -36,6 +36,10 @@ Master HTML in 13 days with this comprehensive tutorial series. Each day focuses
 
 [Sohail Shaikh](https://github.com/sohail019)
 
+## Next Learning
+To continue your learning journey, head to the next topic:
+- **[CSS- Cascading Style Sheets Tutorial](https://github.com/sohail019/Complete-CSS-Tutorial))**
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
