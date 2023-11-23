@@ -2,6 +2,16 @@
 
 Master HTML in 13 days with this comprehensive tutorial series. Each day focuses on a specific aspect, providing hands-on exercises to reinforce your learning.
 
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sohail019/Complete-HTML-Tutorial-Code.git
+   ```
+
+2. Navigate to each day's file to access the corresponding tutorial.
+
 ## Table of Contents
 
 1. [Day 1: Heading, Paragraph, and Some Extra Tags](01-Day1.html)
@@ -18,16 +28,6 @@ Master HTML in 13 days with this comprehensive tutorial series. Each day focuses
 12. [Day 12: Tables](13-Day12.html)
 13. [Day 13: Final Practice with All the Tags](14-Day13-Final_Practice.html)
 
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/sohail019/Complete-HTML-Tutorial-Code.git
-   ```
-
-2. Navigate to each day's file to access the corresponding tutorial.
-
 ## Prerequisites
 
 - Basic understanding of HTML.
@@ -38,7 +38,9 @@ Master HTML in 13 days with this comprehensive tutorial series. Each day focuses
 [Sohail Shaikh](https://github.com/sohail019)
 
 ## Next Learning
+
 To continue your learning journey, head to the next topic:
+
 - **[CSS- Cascading Style Sheets Tutorial](https://github.com/sohail019/Complete-CSS-Tutorial))**
 
 ## License
