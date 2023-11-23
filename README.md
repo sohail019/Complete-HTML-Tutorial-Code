@@ -12,6 +12,11 @@ Master HTML in 13 days with this comprehensive tutorial series. Each day focuses
 
 2. Navigate to each day's file to access the corresponding tutorial.
 
+## Prerequisites
+
+- Basic understanding of HTML.
+- A code editor (e.g., Visual Studio Code, Sublime Text).
+
 ## Table of Contents
 
 1. [Day 1: Heading, Paragraph, and Some Extra Tags](01-Day1.html)
@@ -28,10 +33,6 @@ Master HTML in 13 days with this comprehensive tutorial series. Each day focuses
 12. [Day 12: Tables](13-Day12.html)
 13. [Day 13: Final Practice with All the Tags](14-Day13-Final_Practice.html)
 
-## Prerequisites
-
-- Basic understanding of HTML.
-- A code editor (e.g., Visual Studio Code, Sublime Text).
 
 ## Author
 
